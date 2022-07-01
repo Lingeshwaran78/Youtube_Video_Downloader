@@ -1,0 +1,87 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.youtube_video_download"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+9        android:targetSdkVersion="31" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->/home/softence/StudioProjects/Master/Youtube_Video_Downloader/android/app/src/debug/AndroidManifest.xml:6:5-66
+14-->/home/softence/StudioProjects/Master/Youtube_Video_Downloader/android/app/src/debug/AndroidManifest.xml:6:22-64
+15    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+15-->[:flutter_youtube_downloader] /home/softence/StudioProjects/Master/Youtube_Video_Downloader/build/flutter_youtube_downloader/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-81
+15-->[:flutter_youtube_downloader] /home/softence/StudioProjects/Master/Youtube_Video_Downloader/build/flutter_youtube_downloader/intermediates/library_manifest/debug/AndroidManifest.xml:7:22-78
+16    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+17
+18    <application
+19        android:name="android.app.Application"
+20        android:allowBackup="true"
+20-->[com.github.HaarigerHarald:android-youtubeExtractor:master-SNAPSHOT] /home/softence/.gradle/caches/transforms-2/files-2.1/ad53365bfbf919afb25d8b9380b21694/jetified-android-youtubeExtractor-master-SNAPSHOT/AndroidManifest.xml:14:9-35
+21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+21-->[androidx.core:core:1.6.0] /home/softence/.gradle/caches/transforms-2/files-2.1/122df2e57d294d1a53db26bbc3b813c1/core-1.6.0/AndroidManifest.xml:24:18-86
+22        android:debuggable="true"
+23        android:icon="@mipmap/ic_launcher"
+24        android:label="youtube_video_download"
+25        android:requestLegacyExternalStorage="true"
+26        android:roundIcon="@mipmap/ic_launcher_round" >
+27        <activity
+28            android:name="com.example.youtube_video_download.MainActivity"
+29            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+30            android:exported="true"
+31            android:hardwareAccelerated="true"
+32            android:launchMode="singleTop"
+33            android:windowSoftInputMode="adjustResize" >
+34
+35            <!-- android:theme="@style/LaunchTheme" -->
+36            <!--
+37                 Specifies an Android theme to apply to this Activity as soon as
+38                 the Android process has started. This theme is visible to the user
+39                 while the Flutter UI initializes. After that, this theme continues
+40                 to determine the Window background behind the Flutter UI.
+41            -->
+42            <!--
+43              <meta-data
+44              android:name="io.flutter.embedding.android.NormalTheme"
+45              android:resource="@style/NormalTheme"
+46              />
+47            -->
+48            <!-- <intent-filter> -->
+49            <!-- <action android:name="android.intent.action.SEND" /> -->
+50            <!-- <category android:name="android.intent.category.DEFAULT"/> -->
+51            <!-- <data android:mimeType="text/plain"/> -->
+52            <!-- </intent-filter> -->
+53            <intent-filter>
+54                <action android:name="android.intent.action.MAIN" />
+55
+56                <category android:name="android.intent.category.LAUNCHER" />
+57            </intent-filter>
+58        </activity>
+59        <!--
+60             Don't delete the meta-data below.
+61             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+62        -->
+63        <meta-data
+64            android:name="flutterEmbedding"
+65            android:value="2" />
+66
+67        <uses-library
+67-->[androidx.window:window:1.0.0-beta04] /home/softence/.gradle/caches/transforms-2/files-2.1/03c633e46d75bfb21f082f0417f55161/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+68            android:name="androidx.window.extensions"
+68-->[androidx.window:window:1.0.0-beta04] /home/softence/.gradle/caches/transforms-2/files-2.1/03c633e46d75bfb21f082f0417f55161/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+69            android:required="false" />
+69-->[androidx.window:window:1.0.0-beta04] /home/softence/.gradle/caches/transforms-2/files-2.1/03c633e46d75bfb21f082f0417f55161/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+70        <uses-library
+70-->[androidx.window:window:1.0.0-beta04] /home/softence/.gradle/caches/transforms-2/files-2.1/03c633e46d75bfb21f082f0417f55161/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+71            android:name="androidx.window.sidecar"
+71-->[androidx.window:window:1.0.0-beta04] /home/softence/.gradle/caches/transforms-2/files-2.1/03c633e46d75bfb21f082f0417f55161/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+72            android:required="false" />
+72-->[androidx.window:window:1.0.0-beta04] /home/softence/.gradle/caches/transforms-2/files-2.1/03c633e46d75bfb21f082f0417f55161/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+73    </application>
+74
+75</manifest>
