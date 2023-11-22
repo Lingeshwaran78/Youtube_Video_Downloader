@@ -1,0 +1,2 @@
+com/destinyed/flutter_youtube_downloader/BuildConfig.java
+ com.destinyed.flutter_youtube_downloader.BuildConfig
